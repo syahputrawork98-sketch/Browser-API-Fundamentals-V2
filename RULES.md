@@ -1,60 +1,75 @@
-# Repository Rules
+# Browser API Fundamentals V2
 
-## 1. Scope Boundary
+Repository ini adalah referensi arsitektural Web Platform dan Browser APIs.
 
-This repository documents Web Platform APIs in the browser environment.
+Ini bukan tutorial JavaScript.
+Ini bukan panduan framework.
+Ini bukan kumpulan snippet.
 
-Not included:
-- Node.js APIs
-- Framework abstractions (React, Next.js, etc.)
-- Build tools / bundlers
-
----
-
-## 2. Terminology Discipline
-
-All terminology must align with:
-- HTML Standard
-- DOM Standard
-- Fetch Standard
-- Streams Standard
-- ECMAScript Specification
-
-Incorrect terms must be corrected explicitly.
+Repository ini berfokus pada pemahaman layer Web Platform secara sistematis dan spec-aligned.
 
 ---
 
-## 3. Topic Admission Rule
+## 🎯 Tujuan
 
-A new topic must include:
+Memahami secara mendalam:
 
-- Level (L0–L5)
-- Status (Draft / Stable)
-- Spec reference
-- Prerequisites
-- Next topics
-
-If the API is unstable or experimental → place in L5.
-
----
-
-## 4. Architectural Consistency
-
-Every topic must follow the 10-section structure:
-
-1. Official Term
-2. Formal Definition
-3. Mental Model
-4. Runtime Perspective
-5. Why It Exists
-6. Minimal Code Example
-7. Misconceptions
-8. Pitfalls
-9. Prerequisites
-10. Next Topics
+- Bagaimana Event Loop bekerja
+- Bagaimana Task dan Microtask dijadwalkan
+- Kapan rendering terjadi
+- Bagaimana Fetch diproses oleh browser
+- Bagaimana Security boundary membatasi akses
+- Bagaimana concurrency dimodelkan
+- Bagaimana object lifecycle dan memory retention terjadi
 
 ---
 
-## 5. No Scope Explosion
+## 🧱 Layer Arsitektur
 
-Advanced topics cannot be added before core runtime topics are stable.
+ECMAScript (Language)
+↓
+JavaScript Engine (V8 / SpiderMonkey / JavaScriptCore)
+↓
+Web Platform (HTML Standard, DOM Standard, Fetch Standard, Streams Standard, dll)
+↓
+Browser Implementation (Blink / WebKit / Gecko)
+
+Repository ini fokus pada layer **Web Platform**.
+
+---
+
+## 📚 Struktur Level
+
+Konten dibagi menjadi beberapa level:
+
+- L0 — Platform Map
+- L1 — Runtime Model
+- L2 — Core APIs
+- L3 — Performance & Security
+- L4 — Advanced Deep Dive
+- L5 — Watchlist / Experimental
+
+Lihat detail di `curriculum/LEVELS.md`.
+
+---
+
+## 🧭 Filosofi
+
+- Menggunakan terminologi resmi dari specification.
+- Penjelasan menggunakan Bahasa Indonesia.
+- Berorientasi runtime model.
+- Tidak mencampur framework abstraction.
+- Tidak membahas Node.js APIs.
+
+---
+
+## 📌 Prinsip Utama
+
+Setiap topik harus menjawab:
+
+- Berjalan di thread mana?
+- Masuk queue apa?
+- Siapa yang menjadwalkan?
+- Kapan rendering bisa terjadi?
+- Apa dampaknya ke performa?
+- Apa dampaknya ke keamanan?
