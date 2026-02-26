@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.13.0
+
+- Menambahkan batch kedua L10 Expert and Maintainer (maintenance lanjutan):
+  - `content/L10-expert-and-maintainer/maintainer-operations-playbook.md`
+  - `content/L10-expert-and-maintainer/cross-level-review-rubric.md`
+  - `content/L10-expert-and-maintainer/audit-cadence-blueprint.md`
+- Memperbarui `content/L10-expert-and-maintainer/index.md` untuk mencakup batch 1-2, daftar artefak maintenance lanjutan, dan urutan baca terpadu.
+- Memperbarui status progres pada `README.md`.
+
+---
+
 ## v0.12.0
 
 - Menambahkan batch pertama L10 Expert and Maintainer:

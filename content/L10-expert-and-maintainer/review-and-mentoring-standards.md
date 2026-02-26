@@ -84,4 +84,4 @@ Lulus jika total >= 8 dan tidak ada skor 0 di akurasi spec.
 
 ## 10. Next Topics
 
-- Continuous L0-L10 Quality Stewardship
+- [L10 - Expert and Maintainer](./index.md) sebagai anchor continuous L0-L10 quality stewardship.

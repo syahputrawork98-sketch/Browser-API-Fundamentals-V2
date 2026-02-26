@@ -79,7 +79,7 @@ Checklist release batch:
 ## 9. Prerequisites
 
 - [Knowledge Governance](./knowledge-governance.md)
-- [L10 - Expert and Maintainer](./index.md)
+- [Performance and Reliability Planning](../L9-senior-engineering/performance-and-reliability-planning.md)
 
 ## 10. Next Topics
 

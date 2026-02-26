@@ -9,7 +9,8 @@ dan standar review-mentoring lintas level.
 ## Status
 
 Batch 1 tersedia.
-L10 dinyatakan complete untuk topik inti yang didefinisikan saat ini.
+Batch 2 (maintenance lanjutan) tersedia.
+L10 dinyatakan complete untuk topik inti dan artefak maintenance yang didefinisikan saat ini.
 
 ---
 
@@ -21,11 +22,22 @@ L10 dinyatakan complete untuk topik inti yang didefinisikan saat ini.
 
 ---
 
+## Artefak Maintenance Lanjutan
+
+- [Maintainer Operations Playbook](./maintainer-operations-playbook.md)
+- [Cross-Level Review Rubric](./cross-level-review-rubric.md)
+- [Audit Cadence Blueprint](./audit-cadence-blueprint.md)
+
+---
+
 ## Jalur Baca Disarankan
 
 1. Knowledge Governance
 2. Curriculum Maintenance
 3. Review and Mentoring Standards
+4. Maintainer Operations Playbook
+5. Cross-Level Review Rubric
+6. Audit Cadence Blueprint
 
 ---
 
