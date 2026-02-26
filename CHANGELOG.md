@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.7.0
+
+- Menambahkan batch pertama L5 Watchlist and Experimental:
+  - `content/L5-watchlist-and-experimental/navigation-api.md`
+  - `content/L5-watchlist-and-experimental/scheduler-api.md`
+  - `content/L5-watchlist-and-experimental/view-transitions-api.md`
+- Menambahkan `content/L5-watchlist-and-experimental/index.md` dengan Adoption Matrix, status batch, dan jalur baca.
+- Memperbarui status progres pada `README.md`.
+
+---
+
 ## v0.6.1
 
 - Menambahkan batch kedua L4 Advanced Deep Dive:
