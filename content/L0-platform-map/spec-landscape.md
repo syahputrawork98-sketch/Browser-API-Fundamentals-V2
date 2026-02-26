@@ -1,9 +1,3 @@
-
----
-
-# 📄 content/L0-platform-map/spec-landscape.md
-
-```md
 # Specification Landscape
 
 - Level: L0
@@ -15,6 +9,7 @@
   - Fetch Standard
   - Streams Standard
   - Infra Standard
+  - Web IDL
 - Prerequisites: Web Platform Layering
 - Next Topics: Browser Architecture Overview
 
@@ -24,78 +19,62 @@
 
 Living Standard
 
----
-
 ## 2. Formal Definition
 
-Sebagian besar Web Platform didefinisikan dalam bentuk Living Standard,
-yang terus diperbarui tanpa versi tetap.
-
----
+Sebagian besar spesifikasi Web Platform dikelola sebagai living standards,
+yaitu dokumen normatif yang terus diperbarui tanpa versi rilis mayor tetap.
 
 ## 3. Mental Model
 
-Web Platform bukan satu dokumen.
+Web Platform bukan satu dokumen tunggal.
+Ia adalah jaringan spesifikasi yang saling merujuk.
 
-Ia adalah kumpulan specification yang saling merujuk.
+Contoh pemetaan:
 
-Contoh:
-
-- Event Loop → HTML Standard
-- DOM tree → DOM Standard
-- Fetch algorithm → Fetch Standard
-- Stream processing → Streams Standard
-
----
+- Event loop -> HTML Standard
+- DOM tree dan event dispatch -> DOM Standard
+- Fetch algorithm -> Fetch Standard
+- Stream abstraction -> Streams Standard
 
 ## 4. Runtime Perspective
 
-Specification berisi algoritma normatif seperti:
+Spesifikasi tidak mengeksekusi kode secara langsung.
+Spesifikasi mendefinisikan algoritma normatif seperti "user agent must ...".
 
-> "User agent must..."
+Implementasi browser (Blink, Gecko, WebKit) menerjemahkan algoritma ini
+menjadi kode engine, scheduler, networking stack, dan rendering pipeline.
 
-Browser implementation (Blink, Gecko, WebKit)
-menerjemahkan algoritma ini menjadi kode C++/Rust.
+Dampak praktis:
 
----
+- Perilaku runtime dibentuk oleh kontrak specification
+- Kompatibilitas lintas browser bergantung pada kepatuhan implementasi
 
 ## 5. Why This Exists
 
-Agar semua browser memiliki perilaku konsisten.
-
-Specification adalah kontrak perilaku.
-
----
+Landscape ini ada agar web memiliki perilaku yang konsisten,
+interoperable, dan dapat diuji lintas implementasi browser.
 
 ## 6. Minimal Code Example
 
-Tidak ada contoh kode.
-Ini adalah konsep arsitektural.
-
----
+Tidak ada contoh kode untuk topik ini,
+karena ini adalah peta arsitektur specification.
 
 ## 7. Common Misconceptions
 
-❌ "MDN adalah specification"
+- "MDN adalah specification"
+  - Koreksi: MDN adalah dokumentasi sekunder. Sumber normatif adalah specification.
+- "Semua API web didefinisikan HTML"
+  - Koreksi: HTML hanya salah satu spesifikasi utama, bukan satu-satunya.
 
-Koreksi:
-MDN adalah dokumentasi.
-Specification adalah dokumen normatif.
+## 8. Pitfalls and Best Practices
 
----
-
-## 8. Pitfalls & Best Practices
-
-Jika ada kebingungan,
-selalu periksa specification sebelum artikel blog.
-
----
+- Pitfall: mengambil kesimpulan dari artikel tanpa mengecek sumber normatif
+- Best practice: validasi istilah dan perilaku ke specification primer
+- Best practice: bedakan dokumentasi edukasi vs dokumen normatif
 
 ## 9. Prerequisites
 
 Web Platform Layering
-
----
 
 ## 10. Next Topics
 

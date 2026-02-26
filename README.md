@@ -1,75 +1,115 @@
-# Browser API Fundamentals
+# Browser API Fundamentals V2
 
-Repository ini adalah referensi arsitektural Web Platform dan Browser APIs.
+Repository ini adalah referensi arsitektural Web Platform dan Browser APIs
+untuk pembelajaran bertingkat dari fundamental sampai senior.
 
 Ini bukan tutorial JavaScript.
 Ini bukan panduan framework.
 Ini bukan kumpulan snippet.
 
-Repository ini berfokus pada pemahaman layer Web Platform secara sistematis dan spec-aligned.
-
 ---
 
-## 🎯 Tujuan
+## 1. Tujuan
 
 Memahami secara mendalam:
 
-- Bagaimana Event Loop bekerja
-- Bagaimana Task dan Microtask dijadwalkan
-- Kapan rendering terjadi
-- Bagaimana Fetch diproses oleh browser
-- Bagaimana Security boundary membatasi akses
-- Bagaimana concurrency dimodelkan
-- Bagaimana object lifecycle dan memory retention terjadi
+- bagaimana event loop bekerja
+- bagaimana task dan microtask dijadwalkan
+- kapan rendering terjadi
+- bagaimana fetch diproses browser
+- bagaimana security boundary membatasi akses
+- bagaimana concurrency dimodelkan
+- bagaimana object lifecycle dan memory retention terjadi
 
 ---
 
-## 🧱 Layer Arsitektur
+## 2. Layer Arsitektur
+
+Model layer:
 
 ECMAScript (Language)
-↓
-JavaScript Engine (V8 / SpiderMonkey / JavaScriptCore)
-↓
-Web Platform (HTML Standard, DOM Standard, Fetch Standard, Streams Standard, dll)
-↓
-Browser Implementation (Blink / WebKit / Gecko)
+-> JavaScript Engine (V8 / SpiderMonkey / JavaScriptCore)
+-> Web Platform (HTML, DOM, Fetch, Streams, dan lain-lain)
+-> Browser Implementation (Blink / WebKit / Gecko)
 
-Repository ini fokus pada layer **Web Platform**.
+Fokus repository ini adalah layer Web Platform.
 
 ---
 
-## 📚 Struktur Level
+## 3. Struktur Level (L0-L10)
 
-Konten dibagi menjadi beberapa level:
+### Foundation
 
-- L0 — Platform Map
-- L1 — Runtime Model
-- L2 — Core APIs
-- L3 — Performance & Security
-- L4 — Advanced Deep Dive
-- L5 — Watchlist / Experimental
+- L0: Platform Map
+- L1: Runtime Model
+- L2: Core APIs
+- L3: Performance and Security
+- L4: Advanced Deep Dive
+- L5: Watchlist and Experimental
 
-Lihat detail di `curriculum/LEVELS.md`.
+### Professional
+
+- L6: Applied Systems
+- L7: Architecture Decisions
+- L8: Spec Reading and Validation
+
+### Senior Track
+
+- L9: Senior Engineering
+- L10: Expert and Maintainer
 
 ---
 
-## 🧭 Filosofi
+## 4. Navigasi Cepat
 
-- Menggunakan terminologi resmi dari specification.
-- Penjelasan menggunakan Bahasa Indonesia.
-- Berorientasi runtime model.
-- Tidak mencampur framework abstraction.
-- Tidak membahas Node.js APIs.
+- Aturan kontribusi dan quality gate: `RULES.md`
+- Definisi level pembelajaran: `curriculum/LEVELS.md`
+- Jalur belajar lintas level: `curriculum/PATHS.md`
+- Sumber spesifikasi primer: `specs/SOURCES.md`
+- Catatan perubahan versi: `CHANGELOG.md`
+- Konten awal L0: `content/L0-platform-map/`
 
 ---
 
-## 📌 Prinsip Utama
+## 5. Cara Mulai Belajar
+
+Urutan rekomendasi:
+
+1. Baca `curriculum/LEVELS.md` untuk memahami target tiap level.
+2. Baca `curriculum/PATHS.md` untuk memilih jalur progres.
+3. Mulai dari konten L0 di `content/L0-platform-map/`.
+4. Gunakan `RULES.md` sebagai checklist saat menulis atau mereview topik.
+
+---
+
+## 6. Prinsip Penulisan
+
+Setiap topik wajib:
+
+- spec-aligned
+- runtime-aware
+- menggunakan terminologi resmi specification
+- memisahkan jelas: ECMAScript vs Web APIs vs browser implementation
+
+Standar lengkap ada di `RULES.md`.
+
+---
+
+## 7. Pertanyaan Inti Tiap Topik
 
 Setiap topik harus menjawab:
 
-- Berjalan di thread mana?
-- Masuk queue apa?
-- Siapa yang menjadwalkan?
-- Kapan rendering bisa terjadi?
-- Apa dampaknya ke performa?
-- Apa dampaknya ke keamanan?
+- berjalan di thread atau process mana
+- masuk queue apa
+- siapa yang menjadwalkan
+- kapan rendering dapat terjadi
+- apa dampaknya ke performa
+- apa dampaknya ke memori
+- apa dampaknya ke keamanan
+
+---
+
+## 8. Status Saat Ini
+
+V2 sedang dibangun sebagai struktur utama pembelajaran bertingkat.
+Konten L0 sudah mulai terisi, lalu akan dilanjutkan bertahap ke level berikutnya.
