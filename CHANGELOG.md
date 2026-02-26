@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.9.0
+
+- Menambahkan batch pertama L7 Architecture Decisions:
+  - `content/L7-architecture-decisions/worker-vs-main-thread-strategy.md`
+  - `content/L7-architecture-decisions/cache-and-invalidation-architecture.md`
+  - `content/L7-architecture-decisions/security-hardening-decisions.md`
+- Menambahkan `content/L7-architecture-decisions/index.md` dengan status batch, urutan baca, dan next level.
+- Memperbarui status progres pada `README.md`.
+
+---
+
 ## v0.8.0
 
 - Menambahkan batch pertama L6 Applied Systems:
