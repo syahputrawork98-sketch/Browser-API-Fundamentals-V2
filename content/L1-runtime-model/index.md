@@ -1,8 +1,7 @@
-# L1 — Runtime Model
+# L1 - Runtime Model
 
-Level ini membahas bagaimana browser menjalankan JavaScript dan Web APIs secara runtime.
-
-Level ini adalah fondasi seluruh Web Platform.
+Level ini membahas bagaimana browser menjalankan JavaScript dan Web APIs pada runtime.
+Level ini adalah fondasi scheduling dan rendering behavior Web Platform.
 
 ---
 
@@ -10,25 +9,38 @@ Level ini adalah fondasi seluruh Web Platform.
 
 Setelah menyelesaikan L1, Anda harus mampu:
 
-- Menjelaskan apa itu Event Loop
-- Menjelaskan perbedaan Task dan Microtask
-- Menjelaskan kapan rendering terjadi
+- Menjelaskan apa itu event loop
+- Menjelaskan perbedaan task dan microtask
+- Menjelaskan kapan rendering dapat terjadi
 - Menjelaskan bagaimana Promise dijadwalkan
-- Menjelaskan mengapa setTimeout bukan bagian dari ECMAScript
+- Menjelaskan mengapa timer bukan bagian dari ECMAScript
 
 ---
 
 ## Topik di Level Ini
 
-- Event Loop
-- Tasks vs Microtasks
-- Rendering Opportunity
+Topik inti (batch 1):
+
+- [Event Loop](./event-loop.md)
+- [Tasks vs Microtasks](./tasks-vs-microtasks.md)
+- [Rendering Opportunity](./rendering-opportunity.md)
+
+Topik lanjutan level ini (menyusul):
+
 - Document Lifecycle
 - Memory Lifetime Model
 - Concurrency Model
 
 ---
 
+## Jalur Baca Disarankan
+
+1. Event Loop
+2. Tasks vs Microtasks
+3. Rendering Opportunity
+
+---
+
 ## Next Level
 
-L2 — Core APIs
+[L2 - Core APIs](../L2-core-apis/index.md)

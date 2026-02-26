@@ -115,4 +115,4 @@ Setiap topik harus menjawab:
 ## 8. Status Saat Ini
 
 V2 sedang dibangun sebagai struktur utama pembelajaran bertingkat.
-Konten L0 sudah mulai terisi, lalu akan dilanjutkan bertahap ke level berikutnya.
+Konten L0 sudah terisi dan batch inti L1 sudah tersedia, lalu akan dilanjutkan bertahap ke level berikutnya.

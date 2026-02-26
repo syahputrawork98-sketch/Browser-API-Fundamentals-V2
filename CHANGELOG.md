@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.3.0
+
+- Menambahkan batch inti L1 Runtime Model:
+  - `content/L1-runtime-model/event-loop.md`
+  - `content/L1-runtime-model/tasks-vs-microtasks.md`
+  - `content/L1-runtime-model/rendering-opportunity.md`
+- Menyelaraskan `content/L1-runtime-model/index.md` dengan tautan topik inti dan urutan baca.
+- Menambahkan placeholder `content/L2-core-apis/index.md` agar transisi antar-level tidak putus.
+
+---
+
 ## v0.2.2
 
 - Menambahkan `curriculum/WIREFRAMES.md` sebagai panduan wireframe kurikulum dan topik.
