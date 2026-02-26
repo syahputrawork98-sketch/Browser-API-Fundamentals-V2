@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.5.1
+
+- Menambahkan batch kedua L3 Performance and Security (security track):
+  - `content/L3-performance-and-security/same-origin-policy.md`
+  - `content/L3-performance-and-security/cors.md`
+  - `content/L3-performance-and-security/secure-context.md`
+  - `content/L3-performance-and-security/cross-origin-isolation.md`
+- Menyelaraskan `content/L3-performance-and-security/index.md` untuk menandai L3 complete pada cakupan inti saat ini.
+- Memperbarui status progres pada `README.md`.
+
+---
+
 ## v0.5.0
 
 - Menambahkan batch pertama L3 Performance and Security:
