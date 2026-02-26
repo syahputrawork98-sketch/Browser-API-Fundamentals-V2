@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.6.1
+
+- Menambahkan batch kedua L4 Advanced Deep Dive:
+  - `content/L4-advanced-deep-dive/indexeddb-transaction-model.md`
+  - `content/L4-advanced-deep-dive/bfcache-and-lifecycle-interaction.md`
+- Menyelaraskan `content/L4-advanced-deep-dive/index.md` untuk menandai L4 complete pada cakupan inti saat ini.
+- Memperbarui status progres pada `README.md`.
+
+---
+
 ## v0.6.0
 
 - Menambahkan batch pertama L4 Advanced Deep Dive:

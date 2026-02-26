@@ -7,8 +7,8 @@ termasuk interaksi lintas subsistem pada skala arsitektur browser.
 
 ## Status
 
-Batch 1 tersedia.
-Topik lanjutan level ini akan ditambahkan pada batch berikutnya.
+Batch 1 dan batch 2 tersedia.
+L4 dinyatakan complete untuk cakupan inti saat ini.
 
 ---
 
@@ -18,10 +18,10 @@ Topik lanjutan level ini akan ditambahkan pada batch berikutnya.
 - [Service Worker Lifecycle](./service-worker-lifecycle.md)
 - [Browser Process Model Deep Dive](./browser-process-model-deep-dive.md)
 
-## Topik Berikutnya (Roadmap)
+## Topik Inti Batch 2
 
-- IndexedDB Transaction Model
-- bfcache and Lifecycle Interaction
+- [IndexedDB Transaction Model](./indexeddb-transaction-model.md)
+- [bfcache and Lifecycle Interaction](./bfcache-and-lifecycle-interaction.md)
 
 ---
 
@@ -30,6 +30,8 @@ Topik lanjutan level ini akan ditambahkan pada batch berikutnya.
 1. Streams Deep Dive
 2. Service Worker Lifecycle
 3. Browser Process Model Deep Dive
+4. IndexedDB Transaction Model
+5. bfcache and Lifecycle Interaction
 
 ---
 
