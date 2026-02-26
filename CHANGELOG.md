@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.5.0
+
+- Menambahkan batch pertama L3 Performance and Security:
+  - `content/L3-performance-and-security/rendering-pipeline.md`
+  - `content/L3-performance-and-security/long-tasks.md`
+  - `content/L3-performance-and-security/performanceobserver.md`
+- Menambahkan `content/L3-performance-and-security/index.md` dengan status batch, urutan baca, dan roadmap batch berikutnya.
+
+---
+
 ## v0.4.2
 
 - Menambahkan topik penutup L2 Core APIs:
