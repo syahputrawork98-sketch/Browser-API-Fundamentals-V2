@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.12.0
+
+- Menambahkan batch pertama L10 Expert and Maintainer:
+  - `content/L10-expert-and-maintainer/knowledge-governance.md`
+  - `content/L10-expert-and-maintainer/curriculum-maintenance.md`
+  - `content/L10-expert-and-maintainer/review-and-mentoring-standards.md`
+- Menambahkan `content/L10-expert-and-maintainer/index.md` dengan status batch, urutan baca, dan transisi akhir level.
+- Memperbarui status progres pada `README.md`.
+
+---
+
 ## v0.11.0
 
 - Menambahkan batch pertama L9 Senior Engineering:
