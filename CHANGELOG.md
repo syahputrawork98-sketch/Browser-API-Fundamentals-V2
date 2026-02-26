@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.3.1
+
+- Menambahkan batch lanjutan L1 Runtime Model:
+  - `content/L1-runtime-model/document-lifecycle.md`
+  - `content/L1-runtime-model/memory-lifetime-model.md`
+  - `content/L1-runtime-model/concurrency-model.md`
+- Menyelaraskan `content/L1-runtime-model/index.md` dengan daftar topik L1 lengkap dan urutan baca bertahap.
+
+---
+
 ## v0.3.0
 
 - Menambahkan batch inti L1 Runtime Model:
