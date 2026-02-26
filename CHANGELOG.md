@@ -1,5 +1,27 @@
 # Changelog
 
+## v0.11.0
+
+- Menambahkan batch pertama L9 Senior Engineering:
+  - `content/L9-senior-engineering/design-review-framework.md`
+  - `content/L9-senior-engineering/incident-analysis-framework.md`
+  - `content/L9-senior-engineering/performance-and-reliability-planning.md`
+- Menambahkan `content/L9-senior-engineering/index.md` dengan status batch, urutan baca, dan next level.
+- Memperbarui status progres pada `README.md`.
+
+---
+
+## v0.10.0
+
+- Menambahkan batch pertama L8 Spec Reading and Validation:
+  - `content/L8-spec-reading-and-validation/spec-reading-workflow.md`
+  - `content/L8-spec-reading-and-validation/normative-algorithm-tracing.md`
+  - `content/L8-spec-reading-and-validation/interop-and-conformance-validation.md`
+- Menambahkan `content/L8-spec-reading-and-validation/index.md` dengan status batch, urutan baca, dan next level.
+- Memperbarui status progres pada `README.md`.
+
+---
+
 ## v0.9.0
 
 - Menambahkan batch pertama L7 Architecture Decisions:
@@ -29,27 +51,6 @@
   - `content/L5-watchlist-and-experimental/file-system-access-api.md`
   - `content/L5-watchlist-and-experimental/webgpu.md`
 - Menyelaraskan `content/L5-watchlist-and-experimental/index.md` dengan batch 1-2 dan Adoption Matrix yang diperluas.
-- Memperbarui status progres pada `README.md`.
-
----
-
-## v0.7.0
-
-- Menambahkan batch pertama L5 Watchlist and Experimental:
-  - `content/L5-watchlist-and-experimental/navigation-api.md`
-  - `content/L5-watchlist-and-experimental/scheduler-api.md`
-  - `content/L5-watchlist-and-experimental/view-transitions-api.md`
-- Menambahkan `content/L5-watchlist-and-experimental/index.md` dengan Adoption Matrix, status batch, dan jalur baca.
-- Memperbarui status progres pada `README.md`.
-
----
-
-## v0.6.1
-
-- Menambahkan batch kedua L4 Advanced Deep Dive:
-  - `content/L4-advanced-deep-dive/indexeddb-transaction-model.md`
-  - `content/L4-advanced-deep-dive/bfcache-and-lifecycle-interaction.md`
-- Menyelaraskan `content/L4-advanced-deep-dive/index.md` untuk menandai L4 complete pada cakupan inti saat ini.
 - Memperbarui status progres pada `README.md`.
 
 ---
