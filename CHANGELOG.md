@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.4.0
+
+- Menambahkan batch pertama L2 Core APIs:
+  - `content/L2-core-apis/dom-standard-fundamentals.md`
+  - `content/L2-core-apis/event-system.md`
+  - `content/L2-core-apis/timers.md`
+- Menyelaraskan `content/L2-core-apis/index.md` dengan status batch, urutan baca, dan roadmap topik berikutnya.
+
+---
+
 ## v0.3.1
 
 - Menambahkan batch lanjutan L1 Runtime Model:
