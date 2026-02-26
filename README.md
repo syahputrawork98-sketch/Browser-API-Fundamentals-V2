@@ -1,50 +1,75 @@
-# Browser API Fundamentals V2
+# Browser API Fundamentals
 
-This repository is an architectural reference of the Web Platform and Browser APIs.
+Repository ini adalah referensi arsitektural Web Platform dan Browser APIs.
 
-It is not a JavaScript tutorial.
-It is not a framework guide.
+Ini bukan tutorial JavaScript.
+Ini bukan panduan framework.
+Ini bukan kumpulan snippet.
 
-It is a structured, spec-aligned, runtime-aware documentation of how the Web Platform works.
+Repository ini berfokus pada pemahaman layer Web Platform secara sistematis dan spec-aligned.
 
 ---
 
-## Philosophy
+## 🎯 Tujuan
+
+Memahami secara mendalam:
+
+- Bagaimana Event Loop bekerja
+- Bagaimana Task dan Microtask dijadwalkan
+- Kapan rendering terjadi
+- Bagaimana Fetch diproses oleh browser
+- Bagaimana Security boundary membatasi akses
+- Bagaimana concurrency dimodelkan
+- Bagaimana object lifecycle dan memory retention terjadi
+
+---
+
+## 🧱 Layer Arsitektur
 
 ECMAScript (Language)
 ↓
-JavaScript Engine
+JavaScript Engine (V8 / SpiderMonkey / JavaScriptCore)
 ↓
-Web Platform (HTML, DOM, Fetch, Streams, etc.)
+Web Platform (HTML Standard, DOM Standard, Fetch Standard, Streams Standard, dll)
 ↓
-Browser Implementation (Blink, WebKit, Gecko)
+Browser Implementation (Blink / WebKit / Gecko)
 
-This repository focuses on the Web Platform layer.
+Repository ini fokus pada layer **Web Platform**.
 
 ---
 
-## Structure
+## 📚 Struktur Level
 
-The content is divided into Levels:
+Konten dibagi menjadi beberapa level:
 
 - L0 — Platform Map
 - L1 — Runtime Model
 - L2 — Core APIs
 - L3 — Performance & Security
-- L4 — Advanced
+- L4 — Advanced Deep Dive
 - L5 — Watchlist / Experimental
 
-See `/curriculum/LEVELS.md` for details.
+Lihat detail di `curriculum/LEVELS.md`.
 
 ---
 
-## Goal
+## 🧭 Filosofi
 
-To understand:
+- Menggunakan terminologi resmi dari specification.
+- Penjelasan menggunakan Bahasa Indonesia.
+- Berorientasi runtime model.
+- Tidak mencampur framework abstraction.
+- Tidak membahas Node.js APIs.
 
-- How scheduling works
-- When rendering happens
-- How networking is processed
-- How security boundaries restrict capabilities
-- How concurrency is modeled
-- How memory is retained or released
+---
+
+## 📌 Prinsip Utama
+
+Setiap topik harus menjawab:
+
+- Berjalan di thread mana?
+- Masuk queue apa?
+- Siapa yang menjadwalkan?
+- Kapan rendering bisa terjadi?
+- Apa dampaknya ke performa?
+- Apa dampaknya ke keamanan?
