@@ -36,6 +36,18 @@ Contoh pemetaan:
 - Fetch algorithm -> Fetch Standard
 - Stream abstraction -> Streams Standard
 
+### Wireframe Ringkas
+
+```text
+[HTML Standard]  -> Event loop, timers
+[DOM Standard]   -> DOM tree, events
+[Fetch Standard] -> Request/response algorithm
+[Streams Std]    -> Stream abstractions
+        \            |            /
+         \           |           /
+          +----> [Browser Runtime] <----+
+```
+
 ## 4. Runtime Perspective
 
 Spesifikasi tidak mengeksekusi kode secara langsung.

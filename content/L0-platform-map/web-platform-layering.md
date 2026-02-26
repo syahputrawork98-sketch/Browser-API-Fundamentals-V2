@@ -36,6 +36,21 @@ ECMAScript (language rules)
 ECMAScript mendefinisikan semantik bahasa.
 Web Platform mendefinisikan kemampuan host seperti DOM, Fetch, dan Timers.
 
+### Wireframe Ringkas
+
+```text
+[ECMAScript Spec]
+      |
+      v
+[JavaScript Engine]
+      |
+      v
+[Web Platform APIs]
+      |
+      v
+[Browser Implementation]
+```
+
 ## 4. Runtime Perspective
 
 Ketika Anda menulis kode berikut:

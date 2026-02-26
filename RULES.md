@@ -104,7 +104,21 @@ Tambahan metadata wajib di bagian atas file:
 
 ---
 
-## 6. Runtime Coverage Minimum
+## 6. Wireframe Penjelasan (Wajib)
+
+Agar penjelasan lebih mudah dipahami, setiap topik wajib menambahkan:
+
+- Subbagian `Wireframe Ringkas` pada bagian `Mental Model`
+- Format wireframe berbasis ASCII
+- Fokus wireframe pada alur, relasi komponen, atau urutan proses
+
+Panduan dan contoh standar ada di:
+
+- `curriculum/WIREFRAMES.md`
+
+---
+
+## 7. Runtime Coverage Minimum
 
 Bagian Runtime Perspective wajib mencakup:
 
@@ -118,7 +132,7 @@ Bagian Runtime Perspective wajib mencakup:
 
 ---
 
-## 7. Quality Gate Naik Level
+## 8. Quality Gate Naik Level
 
 Topik dinyatakan lulus hanya jika:
 
@@ -127,12 +141,13 @@ Topik dinyatakan lulus hanya jika:
 - minimal satu miskonsepsi dikoreksi jelas
 - ada penjelasan dampak runtime yang konkret
 - `Prerequisites` dan `Next Topics` konsisten dengan level
+- `Wireframe Ringkas` tersedia dan relevan dengan konsep
 
 Naik ke level berikutnya hanya setelah seluruh topik wajib level saat ini lulus quality gate.
 
 ---
 
-## 8. Larangan Konten
+## 9. Larangan Konten
 
 Dilarang menulis:
 
@@ -144,7 +159,7 @@ Dilarang menulis:
 
 ---
 
-## 9. Sumber Kebenaran
+## 10. Sumber Kebenaran
 
 Referensi primer yang wajib diprioritaskan:
 
@@ -161,7 +176,7 @@ namun tidak boleh menggantikan specification sebagai sumber normatif.
 
 ---
 
-## 10. Definisi Selesai (Definition of Done)
+## 11. Definisi Selesai (Definition of Done)
 
 Satu topik dianggap selesai jika:
 
@@ -170,5 +185,6 @@ Satu topik dianggap selesai jika:
 - lolos quality gate level
 - istilah konsisten dengan kanon terminologi
 - referensi specification tercantum
+- wireframe ringkas tersedia
 
 Jika salah satu poin gagal, topik tetap berstatus draft.

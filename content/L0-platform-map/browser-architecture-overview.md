@@ -1,12 +1,12 @@
 # Browser Architecture Overview
 
 - Level: L0
-- Status: Draft
+- Status: Stable
 - Depth: core
 - Specs:
-  - HTML Standard (processing model)
+  - HTML Standard (processing model context)
 - Prerequisites: Specification Landscape
-- Next Topics: L1 — Runtime Model
+- Next Topics: L1 - Runtime Model
 
 ---
 
@@ -14,14 +14,10 @@
 
 Browser Process Model
 
----
-
 ## 2. Formal Definition
 
 Browser modern menggunakan multi-process architecture
-untuk keamanan dan isolasi.
-
----
+untuk keamanan, isolasi, dan stabilitas.
 
 ## 3. Mental Model
 
@@ -30,64 +26,67 @@ Komponen utama:
 - Browser Process
 - Renderer Process
 - GPU Process
-- Network Process
+- Network Service/Process
 
-JavaScript berjalan di Renderer Process.
+JavaScript dokumen web umumnya berjalan di Renderer Process.
 
----
+### Wireframe Ringkas
+
+```text
+[Browser Process]
+   |-- manages tabs/windows
+   |-- coordinates navigation
+   |
+   +--> [Renderer Process] -> DOM, style, JS execution
+   +--> [Network Service]  -> request/response pipeline
+   +--> [GPU Process]      -> compositing/raster tasks
+```
 
 ## 4. Runtime Perspective
 
-Ketika Anda membuka tab:
+Saat tab dibuka:
 
-- Browser membuat Renderer Process.
-- DOM dan JavaScript berjalan di dalamnya.
-- Networking bisa diproses di network service.
-- Rendering akhir dikirim ke GPU process.
+- Browser process menyiapkan renderer untuk dokumen
+- DOM dan JavaScript dieksekusi di renderer
+- Networking ditangani oleh network service/process
+- Hasil render dikomposisikan melalui GPU pipeline
 
-Isolasi ini memungkinkan Site Isolation.
+Implikasi:
 
----
+- Isolasi proses membatasi dampak crash antar tab
+- Site isolation memperketat boundary antar origin
+- Komunikasi lintas proses menambah biaya koordinasi tertentu
 
 ## 5. Why This Exists
 
-- Keamanan
-- Stabilitas
-- Performance
+Model ini ada untuk:
 
-Jika satu tab crash,
-tidak menjatuhkan seluruh browser.
-
----
+- meningkatkan keamanan (isolation)
+- meningkatkan stabilitas (fault containment)
+- menjaga performa sistem pada skala multi-tab
 
 ## 6. Minimal Code Example
 
-Tidak ada contoh kode.
-Ini adalah arsitektur sistem.
-
----
+Tidak ada contoh kode langsung,
+karena ini adalah konsep arsitektur sistem browser.
 
 ## 7. Common Misconceptions
 
-❌ "Semua tab berjalan dalam satu proses"
+- "Semua tab berjalan dalam satu proses"
+  - Koreksi: browser modern menggunakan multi-process model.
+- "JavaScript mengontrol seluruh pipeline render sendiri"
+  - Koreksi: JavaScript hanya salah satu komponen di renderer; render final melibatkan subsistem lain.
 
-Koreksi:
-Browser modern menggunakan multi-process model.
+## 8. Pitfalls and Best Practices
 
----
-
-## 8. Pitfalls & Best Practices
-
-Jangan berasumsi bahwa semua komunikasi terjadi dalam satu thread.
-
----
+- Pitfall: mengasumsikan semua operasi terjadi pada satu thread/proses
+- Pitfall: mengabaikan biaya komunikasi lintas proses pada fitur kompleks
+- Best practice: rancang aplikasi dengan asumsi isolation boundary nyata
 
 ## 9. Prerequisites
 
 Specification Landscape
 
----
-
 ## 10. Next Topics
 
-L1 — Runtime Model
+L1 - Runtime Model

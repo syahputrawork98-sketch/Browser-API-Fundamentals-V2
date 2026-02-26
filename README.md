@@ -65,6 +65,7 @@ Fokus repository ini adalah layer Web Platform.
 - Aturan kontribusi dan quality gate: `RULES.md`
 - Definisi level pembelajaran: `curriculum/LEVELS.md`
 - Jalur belajar lintas level: `curriculum/PATHS.md`
+- Panduan wireframe pembelajaran: `curriculum/WIREFRAMES.md`
 - Sumber spesifikasi primer: `specs/SOURCES.md`
 - Catatan perubahan versi: `CHANGELOG.md`
 - Konten awal L0: `content/L0-platform-map/`
@@ -77,8 +78,9 @@ Urutan rekomendasi:
 
 1. Baca `curriculum/LEVELS.md` untuk memahami target tiap level.
 2. Baca `curriculum/PATHS.md` untuk memilih jalur progres.
-3. Mulai dari konten L0 di `content/L0-platform-map/`.
-4. Gunakan `RULES.md` sebagai checklist saat menulis atau mereview topik.
+3. Baca `curriculum/WIREFRAMES.md` agar punya peta visual sebelum detail teknis.
+4. Mulai dari konten L0 di `content/L0-platform-map/`.
+5. Gunakan `RULES.md` sebagai checklist saat menulis atau mereview topik.
 
 ---
 
@@ -90,6 +92,7 @@ Setiap topik wajib:
 - runtime-aware
 - menggunakan terminologi resmi specification
 - memisahkan jelas: ECMAScript vs Web APIs vs browser implementation
+- menyertakan wireframe ringkas di bagian Mental Model
 
 Standar lengkap ada di `RULES.md`.
 

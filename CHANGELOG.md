@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.2.2
+
+- Menambahkan `curriculum/WIREFRAMES.md` sebagai panduan wireframe kurikulum dan topik.
+- Menetapkan wireframe ringkas sebagai komponen wajib di `RULES.md`.
+- Memperbarui template topik (`_templates/topic-template.md`) dengan subbagian `Wireframe Ringkas`.
+- Menyelaraskan `README.md` agar memasukkan panduan wireframe ke navigasi dan alur mulai belajar.
+- Menyelaraskan konten L0 (`web-platform-layering.md`, `spec-landscape.md`, `browser-architecture-overview.md`) agar menyertakan `Wireframe Ringkas`.
+
+---
+
 ## v0.2.1
 
 - Menambahkan bagian `Navigasi Cepat` pada `README.md` untuk mempermudah orientasi dokumen inti.

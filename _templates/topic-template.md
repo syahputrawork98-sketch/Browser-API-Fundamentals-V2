@@ -15,6 +15,12 @@
 
 ## 3. Mental Model
 
+### Wireframe Ringkas
+
+```text
+[Tuliskan relasi/alur komponen secara ASCII di sini]
+```
+
 ## 4. Runtime Perspective
 
 Jelaskan:
@@ -30,7 +36,7 @@ Jelaskan:
 
 ## 7. Common Misconceptions
 
-## 8. Pitfalls & Best Practices
+## 8. Pitfalls and Best Practices
 
 ## 9. Prerequisites
 
