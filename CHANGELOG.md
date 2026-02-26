@@ -1,5 +1,23 @@
 # Changelog
 
+## v0.4.2
+
+- Menambahkan topik penutup L2 Core APIs:
+  - `content/L2-core-apis/web-workers.md`
+- Menyelaraskan `content/L2-core-apis/index.md` untuk menandai L2 complete pada cakupan inti saat ini.
+
+---
+
+## v0.4.1
+
+- Menambahkan batch kedua L2 Core APIs:
+  - `content/L2-core-apis/fetch-api-fundamentals.md`
+  - `content/L2-core-apis/url-and-history.md`
+  - `content/L2-core-apis/storage.md`
+- Menyelaraskan `content/L2-core-apis/index.md` dengan dua batch topik L2 dan urutan baca lengkap.
+
+---
+
 ## v0.4.0
 
 - Menambahkan batch pertama L2 Core APIs:
